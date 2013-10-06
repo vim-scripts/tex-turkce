@@ -1,44 +1,10 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=3029
 
-Converts the Turkish characters from TeX form to Unicode and vice versa.
-Türkçe karakterleri TeX halinden Unicode haline ve tersine çevirir.
+tex_turkce.vim
+Converts Turkish characters to their TeX/HTML representation and back.
 
-Defined commands and conversions applied:
-Tanımlı komutlar ve uygulanan değişimler:
+Home page: https://github.com/caglartoklu/tex_turkce.vim
 
-:KarakterleriNormalKodla
-  ç       =>    \c{c}
-  Ç       =>    \c{C}
-  ı       =>    {\\i}
-  İ       =>    \.I
-  ğ       =>    \u{g}
-  Ğ       =>    \u{G}
-  ö       =>    \"o
-  Ö       =>    \"O
-  ş       =>    \c{s}
-  Ş       =>    \c{S}
-  ü       =>    \"u
-  Ü       =>    \"U
-
-:KarakterleriUnicodeKodla
-  \c{c}   =>    ç
-  \c{C}   =>    Ç
-  {\\i}   =>    ı
-  \.I     =>    İ
-  \u{g}   =>    ğ
-  \u{G}   =>    Ğ
-  \"o     =>    ö
-  \"O     =>    Ö
-  \c{s}   =>    ş
-  \c{S}   =>    Ş
-  \"u     =>    ü
-  \"U     =>    Ü
-
-Step by Step Usage:
-Adım Adım Kullanımı:
-
-http://dl.dropbox.com/u/3027364/tex_turkce/tex_turkce_01.png
-http://dl.dropbox.com/u/3027364/tex_turkce/tex_turkce_02.png
-http://dl.dropbox.com/u/3027364/tex_turkce/tex_turkce_03.png
-http://dl.dropbox.com/u/3027364/tex_turkce/tex_turkce_04.png
-
+The development is completely moved to Github.
+For documentation and screenshot, please visit the homepage link.
+Functionality changes will still be reflected to Vim.org page.
